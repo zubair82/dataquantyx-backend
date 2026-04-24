@@ -1,0 +1,6 @@
+_env
+__pycache__
+.env   
+*.csv
+*.html
+*.png

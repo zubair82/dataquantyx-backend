@@ -151,8 +151,9 @@ def read_root():
 
 
 # Health check endpoint
-@app.get(
+@app.api_route(
     "/health",
+    methods=["GET", "HEAD"],
     tags=["Monitoring"],
     summary="Health Check",
     response_description="Server health status"
